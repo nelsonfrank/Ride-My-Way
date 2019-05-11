@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: block;
+    height: 600px;
+    background-color: rgba(248, 250, 250, 0.856);
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    position: fixed;
+
+  }
+
+.list-space{
+    width: 350px;
+    float: right;
+    display:flex;
+    align-items: center;
+    height: 30 px;
+}
+
+.navig{
+    color: rgba(255, 255, 255, 0.653);
+    text-decoration: none;
+}
+header h1{
+    font-family: monaco;
+    font-size: 40px;
+    width: 400px;
+    padding: 10px;
+    float: left;
+    
+}
+header button{
+    height: 30px;
+    width: 100px;
+    background: linear-gradient(to right bottom, #d0dac500, #a5bea800, #78a29100, #48877d00, #006b7100);
+    border: none;
+    border-radius: 30px;
+    margin: 20px;
+    font-size: 18px;
+    
+
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+}
