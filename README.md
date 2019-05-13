@@ -25,4 +25,3 @@ After user sign up, He can find the ride in the web App, ridecheck page, the web
   - Google Chrome --> display our web App in Development mode
   - vim (So exicited to use vim for the first time in this project, Its so awesome, I use vim to write this documentation that's README.md)
   - VsCode --> to write the rest of the code..
-
