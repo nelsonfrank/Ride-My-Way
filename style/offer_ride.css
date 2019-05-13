@@ -1,0 +1,212 @@
+/* Navigation bar and Title with navigators{Home, Find Rides} */
+.header{
+    display: block;
+    height: 120px;
+    background-color: rgba(248, 250, 250, 0.856);
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin-bottom: 20px;
+    /* position: fixed; */
+
+  }
+
+.headertop{
+    font-family: monaco;
+    font-size: 40px;
+    width: 400px;
+    padding: 10px;
+    float: left;
+    
+}
+
+.list-space{
+    width: 350px;
+    float: right;
+    display:flex;
+    align-items: center;
+    height: 20px;
+    margin-top: 70px;
+}
+.cl-1{
+    height: 30px;
+    width: 50px;
+    background: linear-gradient(to right bottom, #d0dac500, #a5bea800, #78a29100, #48877d00, #006b7100);
+    border: none;
+    border-radius: 30px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.navig{
+    color: rgb(213, 218, 218);
+}
+
+
+/* Content Part// */
+.offers{
+   background-color: azure;
+   height: 800px;
+   width: 100%;
+   display: flex;
+}
+.asides{
+     height: 500px;
+     width: 20%;
+     background: rgba(148, 146, 146, 0.843);
+     margin: 10px 10px 10px 20px;
+     text-align: center;
+}
+.articles{
+    height: 500px;
+    width: 75%;
+    background: rgba(148, 146, 146, 0.843);
+    margin: 10px 10px 10px 5px;
+}
+
+.button{
+    height: 40px;
+    width: 150px;
+    background: white;
+    border: 2px solid #cac703;
+    border-radius: 30px;
+    margin: 20px 10px;
+    font-size: 20px;
+    color: #cac703
+}
+
+.rideheader{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+}
+
+/* list display  */
+.offerdisplay{
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    background: rgba(187, 182, 182, 0.979);
+}
+
+.offerlist{
+    display: grid;
+    grid-template: 50px / repeat(4, 200px);
+    grid-gap: 5px;
+    background: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: ubuntu;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+.name{
+    text-align: center;
+    border-right: 1px solid black; 
+    padding-top: 10px;
+}
+.phoneno{
+    text-align: center;
+    border-right: 1px solid black;  
+    padding-top: 10px;
+}
+.destin{
+    text-align: center;
+    border-right: 1px solid black;  
+    padding-top: 10px;
+}
+.acceptbtn{
+    display: flex;
+}
+
+.accept{
+    height: 40px;
+    width: 150px;
+    background: white;
+    border: 2px solid #cac703;
+    border-radius: 30px;
+    margin: 5px 10px;
+    font-size: 20px;
+    color: #cac703
+}
+
+.denies{
+    height: 40px;
+    width: 150px;
+    background: white;
+    border: 2px solid #cac703;
+    border-radius: 30px;
+    margin: 5px 10px;
+    font-size: 20px;
+    color: #cac703
+}
+
+/* pop-up  */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+.pop-up{
+  
+}
+.offerform{
+    padding-left: 380px;
+}
+#inpute{
+    text-align: justify;
+    height: 30px;
+    width: 300px;
+    /* border-radius: 10px; */
+    font-size: 16px;
+    border: 1px solid #11253e;
+    border-bottom: 2px solid black;
+    padding-left: 20px;
+    background: #11253e;
+    color: rgb(233, 221, 221);
+    margin: 10px 10px;
+}
+/* submit button style */
+#submit{
+    background-color: #11253e;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid rgb(168, 168, 158);
+    margin: 30px 0px 0px 0px;
+    color: rgb(168, 168, 158);
+    font-size: 16px;
+
+}

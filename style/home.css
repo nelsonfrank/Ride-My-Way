@@ -20,8 +20,10 @@
     width: 350px;
     float: right;
     display:flex;
+    flex-direction: column;
     align-items: center;
     height: 30 px;
+    margin-right: -50px;
 }
 
 .navig{
@@ -36,14 +38,19 @@
     float: left;
     
 }
+.profileid{
+    border: 1px solid black;
+    border-radius: 10px;
+}
 .cl-1{
     height: 30px;
     width: 100px;
     background: linear-gradient(to right bottom, #d0dac500, #a5bea800, #78a29100, #48877d00, #006b7100);
     border: none;
     border-radius: 30px;
-    margin: 20px;
-    font-size: 18px;
+    margin: 0px 20px;
+    margin-top: -25px;
+    font-size: 10px;
     
 
 }
