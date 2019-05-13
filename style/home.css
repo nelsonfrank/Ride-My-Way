@@ -129,6 +129,21 @@ nav{
     height: 400px;
 }
 
+.home{
+    float: right;
+    width: 30px;
+    border: none;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+button:focus{
+    outline: none !important;
+}
+
+
 /* footer part */
 footer{
     background: rgb(0, 0, 0);

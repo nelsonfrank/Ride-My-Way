@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/available_ride.css">
+    <title>Find Ride</title>
+</head>
+<body>
+        <header class="header" style="background:url(images/rides.jpg)">
+            <nav>
+              <h1 class="headertop">Ride_My_Way</h1>
+              <div class="list-space">
+                <button class="cl-1">
+                  <a href="home.html" class="navig" style=" text-decoration: none;">Home</a>
+                </button>
+                <button class="cl-1" style="width: 100px">
+                  <a href="offer_ride.html" class="navig" style=" text-decoration: none; ;">Offer Ride</a>
+                </button>
+                <button class="cl-1">
+                    <a href="index.html" class="navig" style=" text-decoration: none;font-size: 12px;">SignOut</a>
+                </button>
+              </div>
+            </nav>
+          </header>
+
+          <main>
+              <section class="findride">
+                  <div class="ride">
+                    <div class="searchride">
+                          <button class="search" id="myBtn">Search Ride</button>
+                          <div id="myModal" class="modal">
+
+               
+                              <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <div class="pop-up">
+                                  <h2 style="margin:10px; font-size:30px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Create Ride</h2>
+                                  <form action="" style="  display: flex; flex-direction: column;" class=" offerform">
+                                  <input type="text" name="location" id="inpute" placeholder="Your Location">
+                                  <input type="number" name="phone" id="inpute" placeholder="Phone Number">
+                                  <input type="text" name="Destination" id="inpute" placeholder="Destination">
+                                  <input type="password" name="password" id="inpute" placeholder="Road to pass">
+                                  <input type="submit" name="" id="submit">
+                                </form>
+                                </div> 
+                              </div>
+                            
+                            </div>
+                    </div>
+                    <div class="availableride">
+                <div class="offerdisplay">
+                 <div class="offerlist" style="margin-bottom: 3px; border-radius: 0px;  border-bottom: 2px solid blue;">
+                   <div class="name" style="border: none;">Starting</div>
+                   <div class="phoneno" style="border: none;">Destination</div>
+                   <div class="destin" style="border: none;">Cost</div>
+                 </div>
+
+                 <div class="offerlist">
+                  <div class="name">Makumbusho</div>
+                  <div class="phoneno">Kimara</div>
+                  <div class="destin">Tsh.2000/=</div>
+                  <div class="acceptbtn">
+                    <button class="accept">details</button>
+                 
+                  </div>
+                </div>
+
+                <div class="offerlist">
+                    <div class="name">Makumbusho</div>
+                    <div class="phoneno">Kimara</div>
+                    <div class="destin">Tsh.2000/=</div>
+                    <div class="acceptbtn">
+                      <button class="accept">details</button>
+                   
+                    </div>
+                  </div>
+
+                  <div class="offerlist">
+                      <div class="name">Makumbusho</div>
+                      <div class="phoneno">Kimara</div>
+                      <div class="destin">Tsh.2000/=</div>
+                      <div class="acceptbtn">
+                        <button class="accept">details</button>
+                     
+                      </div>
+                    </div>
+
+                    <div class="offerlist">
+                        <div class="name">Makumbusho</div>
+                        <div class="phoneno">Kimara</div>
+                        <div class="destin">Tsh.2000/=</div>
+                        <div class="acceptbtn">
+                          <button class="accept">details</button>
+                       
+                        </div>
+                      </div>
+
+                      <div class="offerlist">
+                          <div class="name">Makumbusho</div>
+                          <div class="phoneno">Kimara</div>
+                          <div class="destin">Tsh.2000/=</div>
+                          <div class="acceptbtn">
+                            <button class="accept">details</button>
+                         
+                          </div>
+                        </div>
+
+                        <div class="offerlist">
+                            <div class="name">Makumbusho</div>
+                            <div class="phoneno">Kimara</div>
+                            <div class="destin">Tsh.2000/=</div>
+                            <div class="acceptbtn">
+                              <button class="accept">details</button>
+                           
+                            </div>
+                          </div>
+
+               </div>
+                    </div>
+                  </div>
+              </section>
+          </main>
+</body>
+
+<script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+</html>
