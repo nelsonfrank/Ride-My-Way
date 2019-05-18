@@ -1,0 +1,61 @@
+body{
+    /* display: grid;
+    grid-template: repeat(3, 300px)/ repeat(3, 300px);
+    grid-gap: 10px 10px;
+    grid-template-areas: "header header header",
+                          "advert section advert"
+                          "footer footer footer"; */
+    background: rgba(11, 15, 12, 0.781);
+    color: #fff;
+
+}
+main{
+    height: 300px;
+    width: 300px;
+    padding: 20px 0px 0px 90px;
+    margin: 100px 0px 0px 480px;
+    background: rgba(42, 54, 45, 0.781);
+    box-shadow:3px 3px 5px black;
+}
+header nav{
+    padding-left:30px;
+    margin-bottom: 5px;
+
+}
+h1{
+    padding-bottom: 10px;
+    width: 150px;
+    border-bottom: 2px solid white;
+}
+section{
+    margin: 30px 0px 0px 0px;
+}
+input:focus{
+    outline: none !important;
+}
+input{
+    display: block;
+    margin:10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#surname{
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    color: black;
+}
+#password{
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    color: black;
+}
+
+#submit{
+    margin: 10px 0px 0px 70px;
+    width: 70px;
+    height: 30px;
+
+}
