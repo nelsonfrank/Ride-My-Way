@@ -41,7 +41,7 @@ class Signup extends Component{
            </div>
 
           <div>
-              <h3 style={{fontFamily: 'Courier New', Courier, monospace, fontSize: '20'}}>Do You have an Account?!</h3>
+              <h3 style={{fontFamily: 'Courier New', fontSize: '20'}}>Do You have an Account?!</h3>
               <button id="signin">Sign in</button>
           </div>
           
