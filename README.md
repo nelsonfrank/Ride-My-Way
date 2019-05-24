@@ -20,7 +20,12 @@ After user sign up, He can find the ride in the web App, ridecheck page, the web
   - Html (Markup language)
   - Css (Styling Language)
   - Javascript (Interactivity --> React to user Actions On the Web app)
-
+## Javascript Framework(Frontend Directory)
+   - ReactJs
+## Backend 
+   - NodeJs
+## Database
+   - Postgresql
 ## Tools used
   - Google Chrome --> display and debug our web App in Development mode
   - vim (So exicited to use vim for the first time in this project, Its so awesome, I use vim to write this documentation that's README.md)
