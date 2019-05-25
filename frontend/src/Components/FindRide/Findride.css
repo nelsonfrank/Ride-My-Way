@@ -1,0 +1,8 @@
+.ride-item {
+  height: 30px;
+  width: 250px;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  box-shadow: 1px 1px 2px 2px;
+  display: flex;
+}

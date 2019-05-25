@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import image from "../images/car.png";
 import "../css/home.css";
-import Signup from "./SignUp";
 
 const Home = () => {
   return (
@@ -49,7 +48,7 @@ const Home = () => {
                 to make unlimited amount of money, There you go, Invite some
                 friend to travel together and earn money, is that so easier
                 friend? Make it now what are you waiting for, Travel and make
-                money?!🚀🚀🚗🚗💰💰✓
+                money?!
               </p>
             </div>
             <div className="offerbutton">
@@ -70,7 +69,9 @@ const Home = () => {
               </p>
             </div>
             <div className="offerbutton">
-              <button className="buttonoffer">Find Ride</button>
+              <Link to="/FindRide">
+                <button className="buttonoffer">Find Ride</button>
+              </Link>
             </div>
           </div>
         </section>
