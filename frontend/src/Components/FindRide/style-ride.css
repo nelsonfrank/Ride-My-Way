@@ -1,0 +1,95 @@
+/* heading of the page */
+.find-ride {
+}
+.my-ride-found {
+  width: 770px;
+  height: 500px;
+  float: left;
+  margin: 20px 100px;
+  padding: 20px 40px;
+}
+
+/* Navigation Start */
+.header-nav {
+  display: block;
+  height: 120px;
+  background-color: rgba(122, 165, 165, 0.856);
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  margin-bottom: 20px;
+}
+
+.headertopnav {
+  font-family: monaco;
+  font-size: 40px;
+  width: 400px;
+  padding: 10px;
+  float: left;
+}
+
+.listspace {
+  width: 350px;
+  float: right;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin-top: 70px;
+}
+.cl-2 {
+  height: 30px;
+  width: 50px;
+  background: linear-gradient(
+    to right bottom,
+    #d0dac500,
+    #a5bea800,
+    #78a29100,
+    #48877d00,
+    #006b7100
+  );
+  border: none;
+  border-radius: 30px;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.navig-nav {
+  color: rgb(213, 218, 218);
+  width: 100px;
+  text-decoration: none;
+}
+
+.whole-header {
+  height: 200px;
+  background-color: rgb(204, 197, 197);
+}
+/* Navigation End */
+
+/* Search form Start */
+.search-item {
+  margin: 10px;
+  width: 100px;
+  float: right;
+}
+
+.ride-button {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid rgba(122, 165, 165, 0.856);
+  background: rgb(204, 197, 197);
+  color: rgba(122, 165, 165, 0.856);
+  font-size: 20px;
+}
+/* SearchForm End */
+
+.head-ride {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  margin: 10px;
+  width: 350px;
+  /* float: left; */
+  margin-left: 200px;
+}
+
+/* ride details such Destination, Starting, Time */

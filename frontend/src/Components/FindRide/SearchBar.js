@@ -4,9 +4,7 @@ class SearchBar extends Component {
   render() {
     return (
       <div>
-        <form>
-          <input type="text" name="searchbar" />
-        </form>
+        <button className="ride-button ">Search</button>
       </div>
     );
   }

@@ -1,20 +1,30 @@
 import React from "react";
 
 const Ride = ({ rideList }) => {
-  const mylist = rideList.map(rideList => {
+  const mylist = rideList.map(list => {
     return (
-      <div className="ride-item">
-        <div>
-          <span>{rideList.Destination}</span>
-        </div>
-        <div>
-          <span>{rideList.Location}</span>
-        </div>
-
-        <span>{rideList.Time}</span>
-      </div>
+      <tr>
+        <td>
+          <span>{list.Destination}</span>
+        </td>
+        <td>
+          <span>{list.Starting}</span>
+        </td>
+        <td>
+          <span>{list.Time}</span>
+        </td>
+      </tr>
     );
   });
-  return { mylist };
+  return (
+    <table>
+      <tr>
+        <td>Destination</td>
+        <td>Stating</td>
+        <td>Time</td>
+      </tr>
+      {mylist}
+    </table>
+  );
 };
 export default Ride;
