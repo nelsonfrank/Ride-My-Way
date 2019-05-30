@@ -1,20 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 import "./style-ride.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import SearchBar from "./SearchBar";
-import RideList from "./RideList";
+// import RideList from "./RideList";
 import Navigation from "./Navigation";
-import SearchRide from "./SearchRide";
 
-const index = () => {
-  return (
-    <Router>
+class SearchRide extends Component {
+  state = {};
+  render() {
+    return (
       <React.Fragment>
         <div className="whole-header">
           <Navigation />
-          <div className="search-item">
-            <SearchBar />
-          </div>
         </div>
 
         <div className="side-bar">
@@ -26,13 +21,10 @@ const index = () => {
           </ul>
         </div>
         <div className="my-ride-found">
-          <RideList />
+          <p>Here is your results</p>
         </div>
       </React.Fragment>
-      <div>
-        <Route path="/SearchRide" component={SearchRide} />
-      </div>
-    </Router>
-  );
-};
-export default index;
+    );
+  }
+}
+export default SearchRide;

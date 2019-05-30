@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+// import FindRide from "./Components/FindRide";
 import App from "./App";
 import "./index.css";
 

@@ -3,12 +3,40 @@
 }
 .my-ride-found {
   width: 770px;
-  height: 500px;
+  height: 400px;
   float: left;
-  margin: 20px 100px;
+  margin: 20px 50px;
   padding: 20px 40px;
+  /* margin-top: 200px; */
+}
+.side-bar {
+  height: 500px;
+  width: 270px;
+  background: black;
+  float: left;
+  margin-left: -10px;
+  margin-right: 20px;
+  box-shadow: 4px 0px 2px 1px;
+  /* margin-top: 200px; */
 }
 
+.option-list {
+  color: #fff999;
+  padding: 30px;
+  list-style: none;
+  font-size: 18px;
+  font-family: "source code pro";
+  margin-top: 50px;
+}
+
+.list-item-ride {
+  margin: 20px;
+  border: none;
+  border-radius: 7px;
+  height: 30px;
+  background: rgb(22, 21, 21);
+  text-align: center;
+}
 /* Navigation Start */
 .header-nav {
   display: block;
@@ -62,6 +90,13 @@
 .whole-header {
   height: 200px;
   background-color: rgb(204, 197, 197);
+  /* position: fixed; */
+  width: 100%;
+  /* margin-bottom: 200px; */
+}
+
+.main-ride {
+  /* margin-top: 200px;   */
 }
 /* Navigation End */
 
@@ -93,3 +128,40 @@
 }
 
 /* ride details such Destination, Starting, Time */
+
+.findride-header {
+  width: 500px;
+  font-family: "source code pro";
+  font-size: 40px;
+  margin: 2px 10px 2px 50px;
+  float: left;
+}
+.findride-table {
+  width: 900px;
+  float: left;
+  border: none;
+}
+
+.table-header {
+  /* border-left: 1px solid black; */
+  background: rgba(122, 165, 165, 0.856);
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-family: "source code pro";
+  height: 40px;
+  text-align: center;
+  border: none;
+}
+
+.table-data-rows {
+  font-family: "source code pro";
+  font-size: 16px;
+  text-align: center;
+  height: 30px;
+  background: rgb(204, 197, 197);
+}
+
+/* .table-data {
+  border: 1px solid black;
+} */

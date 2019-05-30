@@ -1,9 +1,10 @@
 import React from "react";
+import "./style-ride.css";
 
 const Ride = ({ rideList }) => {
   const mylist = rideList.map(list => {
     return (
-      <tr>
+      <tr className="table-data-rows">
         <td>
           <span>{list.Destination}</span>
         </td>
@@ -17,11 +18,11 @@ const Ride = ({ rideList }) => {
     );
   });
   return (
-    <table>
-      <tr>
-        <td>Destination</td>
-        <td>Stating</td>
-        <td>Time</td>
+    <table className="findride-table">
+      <tr className="table-header">
+        <td className="table-data">Destination</td>
+        <td className="table-data">Starting</td>
+        <td className="table-data">Time</td>
       </tr>
       {mylist}
     </table>
