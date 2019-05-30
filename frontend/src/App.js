@@ -5,7 +5,7 @@ import SignIn from "./Components/SignIn";
 import SignUp from "./Components/SignUp";
 import FindRide from "./Components/FindRide";
 
-function App() {
+const App =()=> {
   return (
     <Router>
       <div>
