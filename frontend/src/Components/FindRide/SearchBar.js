@@ -1,14 +1,20 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import SearchRide from "./SearchRide";
 
 class SearchBar extends Component {
   render() {
     return (
-      <div>
-        <Link to="/FindRide/SearchRide">
-          <button className="ride-button">Search</button>
-        </Link>
-      </div>
+      <Router>
+        <div>
+          <Link to="/FindRide/SearchRide">
+            <button className="ride-button">Search</button>
+          </Link>
+        </div>
+        <div>
+          <Route path="/SearchRide" component={SearchRide} />
+        </div>
+      </Router>
     );
   }
 }

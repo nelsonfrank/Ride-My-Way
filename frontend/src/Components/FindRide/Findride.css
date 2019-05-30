@@ -1,8 +1,31 @@
-.ride-item {
+/* .ride-item {
   height: 30px;
   width: 250px;
   border: 1px solid #fff;
   border-radius: 7px;
   box-shadow: 1px 1px 2px 2px;
   display: flex;
+} */
+
+.ride-form {
+  width: 600px;
+  height: 50px;
+  float: right;
+  margin-top: -10px;
+}
+
+.input-ride {
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  margin: 4px;
+  padding: 0px 20px;
+}
+
+.button-ride {
+  height: 30px;
+  border-radius: 5px;
+  background: rgb(204, 197, 197);
+  border: 2px solid rgba(122, 165, 165, 0.856);
+  width: 80px;
 }

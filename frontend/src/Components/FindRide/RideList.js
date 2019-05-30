@@ -55,13 +55,18 @@ class RideList extends Component {
         Starting: "Kawe",
         Time: "1:00 Am"
       }
-    ]
+    ],
+    isTrue: false
   };
-
+  handleData = props => {
+    console.log(this.props.rideList);
+  };
   render() {
     return (
       <div>
-        <h2 className="findride-header">Available Rides</h2>
+        <h2 className="findride-header" onClick={this.handleData}>
+          Available Rides
+        </h2>
         <Ride rideList={this.state.RideOffer} />
       </div>
     );
