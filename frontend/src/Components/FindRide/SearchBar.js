@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import SearchRide from "./SearchRide";
 
-class SearchBar extends Component {
-  render() {
+class SearchBar =()=> {
+ 
     return (
       <Router>
         <div>
@@ -16,7 +16,7 @@ class SearchBar extends Component {
         </div>
       </Router>
     );
-  }
+
 }
 
 export default SearchBar;

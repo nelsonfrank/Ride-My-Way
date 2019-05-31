@@ -6,7 +6,7 @@ import SignUp from "./Components/SignUp";
 import FindRide from "./Components/FindRide";
 import OfferRide from "./Components/OfferRide";
 
-function App() {
+const App =()=> {
   return (
     <Router>
       <div>
