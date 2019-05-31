@@ -4,6 +4,7 @@ import Home from "./Components/Home";
 import SignIn from "./Components/SignIn";
 import SignUp from "./Components/SignUp";
 import FindRide from "./Components/FindRide";
+import OfferRide from "./Components/OfferRide";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div>
         <Route exact path="/" component={Home} />
         <Route path="/FindRide" component={FindRide} />
+        <Route path="/OfferRide" component={OfferRide} />
         <Route path="/SignUp/" component={SignUp} />
         <Route path="/SignIn/" component={SignIn} />
       </div>

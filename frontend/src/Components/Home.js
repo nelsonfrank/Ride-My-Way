@@ -52,7 +52,9 @@ const Home = () => {
               </p>
             </div>
             <div className="offerbutton">
-              <button className="buttonoffer">Offer Ride</button>
+              <Link to="/OfferRide">
+                <button className="buttonoffer">Offer Ride</button>
+              </Link>
             </div>
           </div>
         </section>
