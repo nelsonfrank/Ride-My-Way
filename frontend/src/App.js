@@ -1,12 +1,22 @@
-import React from 'react';
-import './App.css';
-import Home from './components/Home';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from "./Components/Home";
+import SignIn from "./Components/SignIn";
+import SignUp from "./Components/SignUp";
+import FindRide from "./Components/FindRide";
+import OfferRide from "./Components/OfferRide";
 
-function App() {
+const App =()=> {
   return (
-    <div className="App">
-     <Home/>
-    </div>
+    <Router>
+      <div>
+        <Route exact path="/" component={Home} />
+        <Route path="/FindRide" component={FindRide} />
+        <Route path="/OfferRide" component={OfferRide} />
+        <Route path="/SignUp/" component={SignUp} />
+        <Route path="/SignIn/" component={SignIn} />
+      </div>
+    </Router>
   );
 }
 

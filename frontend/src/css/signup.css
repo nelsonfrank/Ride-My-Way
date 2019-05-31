@@ -1,0 +1,108 @@
+.body-part {
+  padding: 30px 10px 10px 200px;
+  margin: 0px;
+  background: rgba(9, 10, 8, 0.829);
+  color: rgb(168, 168, 158);
+  height: 657px;
+  /* padding: 20px 0px 0px 300px; */
+}
+
+.main-part {
+  display: flex;
+}
+/* Whole Section of the Form  */
+.section-part {
+  background: #11253e;
+  padding: 0px 0px 0px 0px;
+  border-top-left-radius: 20px;
+}
+
+/* Another section for sign up with social accounts */
+
+.link {
+  width: 450px;
+  height: 504px;
+  background: rgb(168, 168, 158);
+  color: black;
+  padding: 0px 0px 0px 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.horizontal {
+  display: grid;
+  grid-template: 50px / repeat(3, 50px);
+  grid-gap: 10px 40px;
+  margin: 30px 0px 0px 70px;
+}
+.socialnk {
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px black;
+}
+.social {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#signin {
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004974,
+    #007f9f,
+    #00b6a6,
+    #12eb8d
+  );
+  border: none;
+  margin: 5px 30px;
+}
+/* style whole form box */
+.form-part {
+  height: 484px;
+  width: 400px;
+  padding: 0px 0px 0px 100px;
+  background: #11253e;
+  border-bottom-left-radius: 20px;
+}
+/* header style */
+.header-part .nav-part {
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0px 0px 0px 10px;
+}
+
+/* form Input styling  */
+.input-part {
+  display: block;
+  margin: 20px;
+}
+input:focus {
+  outline: none !important;
+}
+
+#inpute {
+  text-align: justify;
+  height: 30px;
+  width: 300px;
+  /* border-radius: 10px; */
+  font-size: 16px;
+  border: 1px solid #11253e;
+  border-bottom: 2px solid black;
+  padding-left: 20px;
+  background: #11253e;
+  color: rgb(233, 221, 221);
+}
+/* submit button style */
+#submit-part {
+  background-color: #11253e;
+  height: 30px;
+  width: 100px;
+  border-radius: 50px;
+  border: 1px solid rgb(168, 168, 158);
+  margin: 30px 0px 0px 0px;
+  color: rgb(168, 168, 158);
+  font-size: 16px;
+}

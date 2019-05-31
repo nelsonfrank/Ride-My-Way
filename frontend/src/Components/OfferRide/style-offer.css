@@ -1,0 +1,114 @@
+/* Sidebar style start */
+.side-offer {
+  height: 500px;
+  width: 270px;
+  background: black;
+  float: left;
+  margin-left: -10px;
+  margin-right: 20px;
+  box-shadow: 4px 0px 2px 1px;
+  /* margin-top: 200px; */
+}
+
+.option-offer {
+  color: #fff999;
+  padding: 30px;
+  list-style: none;
+  font-size: 18px;
+  font-family: "source code pro";
+  margin-top: 50px;
+}
+
+.list-item-offer {
+  margin: 20px;
+  border: none;
+  border-radius: 7px;
+  height: 30px;
+  background: rgb(22, 21, 21);
+  text-align: center;
+}
+/* sidebar style end */
+
+/* OfferRide button start here */
+.offer-button {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid rgba(122, 165, 165, 0.856);
+  background: rgb(204, 197, 197);
+  color: rgba(162, 194, 194, 0.856);
+  font-size: 20px;
+  float: right;
+  margin-top: -80px;
+}
+
+/* offerRide button end here */
+
+/* offer-form pop-up start here */
+.offer-form {
+  width: 700px;
+}
+/* po-up-form-header */
+.offer-ride-form-header {
+  font-size: 30px;
+  font-family: "source code pro";
+  width: 500px;
+  /* float: left; */
+  text-align: center;
+  margin-left: 360px;
+  margin-bottom: 10px;
+}
+/* pop-up form */
+.form-input-offer {
+  height: 500px;
+  width: 700px;
+  padding: 20px;
+  margin: 10px 10px 0px 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* form-input pop-up */
+.Offer-ride-input {
+  width: 300px;
+  margin: 30px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "source code pro";
+}
+
+/* form-offer-ride-pop-up */
+.offer-ride-form-button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  border: 2px solid black;
+  margin-left: 40px;
+}
+
+/* offer-form pop-up END HERE */
+
+/* ride-detail-start here */
+
+.ride-detail {
+  margin: 20px;
+  padding: 10px;
+  width: 700px;
+  float: left;
+}
+
+.ride-detail-title {
+  font-size: 40px;
+  text-transform: uppercase;
+  width: 300px;
+  font-family: "source code pro";
+  text-align: center;
+  margin-left: 200px;
+}
+
+.ride-detail-body {
+  width: 500px;
+  font-family: "source code pro";
+}
