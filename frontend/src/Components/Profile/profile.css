@@ -1,0 +1,102 @@
+.main-profile-header {
+  height: 300px;
+  background: #a09b5a;
+  padding: 0px;
+  margin: 0px;
+}
+
+.profile-navigation {
+  height: 50px;
+  background: navy;
+  font-size: 20px;
+}
+
+.profile-user-detail {
+  height: 250px;
+  background: gray;
+  display: flex;
+}
+
+.profile-nav-header {
+  font-family: "Source code pro";
+  text-transform: uppercase;
+  margin-left: 10px;
+  width: 300px;
+  float: left;
+}
+
+.profile-nav-button {
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(204, 197, 197, 0);
+  color: rgba(188, 233, 233, 0.856);
+  font-size: 16px;
+  float: right;
+  margin-top: 5x;
+}
+.user-detail-pic {
+  height: 200px;
+  float: left;
+}
+.profile-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  margin-left: 100px;
+}
+
+.person-detail {
+  height: 250px;
+  margin-top: 33px;
+  margin-left: 70px;
+}
+
+.person-detail-list {
+  list-style: none;
+  margin: 7px 0px 0px 0px;
+}
+
+.profile-session {
+  display: flex;
+  margin: 20px 300px;
+}
+
+.button-profile-info {
+  width: 900px;
+  display: flex;
+  margin: 20px 100px;
+}
+
+.ride-info-descrption {
+  width: 200px;
+  float: left;
+}
+
+.ride-info-number {
+  width: 300px;
+  float: right;
+  margin-left: 400px;
+}
+
+.button-info-description {
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  border: none;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.button-info-number {
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  border: 2px solid black;
+  margin-left: 20px;
+}
