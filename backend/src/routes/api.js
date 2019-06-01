@@ -45,6 +45,19 @@ router.get('/rides', (req, res) => {
 });
 
 /**
+ * POST /rides Create a ride offer.
+ */
+router.post('/rides', (req, res) => {
+  const rides = [];
+
+  rides.concat(req.body);
+
+  return res
+    .status(201)
+    .json(rides);
+});
+
+/**
  * POST /register Register a user
  */
 router.post('/register', authController.register);
