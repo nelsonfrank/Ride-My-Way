@@ -1,5 +1,0 @@
-language: node_js
-
-before_script:
-  cp .env.testing.example .env.testing
-
