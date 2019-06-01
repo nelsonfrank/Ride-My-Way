@@ -34,6 +34,17 @@ router.get('/', (req, res) => {
 });
 
 /**
+ * GET /rides Fetch all rides.
+ */
+router.get('/rides', (req, res) => {
+  const rides = [];
+
+  return res
+    .status(200)
+    .json(rides);
+});
+
+/**
  * POST /register Register a user
  */
 router.post('/register', authController.register);
