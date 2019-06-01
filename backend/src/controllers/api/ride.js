@@ -28,3 +28,19 @@ export async function createRide(request, response) {
     });
   }
 }
+
+export async function getSpecificRide(request, response) {
+  try {
+    const rides = [];
+
+    rides.concat(request.body);
+    return response.status(200).request.params;
+  } catch (error) {
+    const { message } = error;
+
+    return response.status(500).json({
+      error,
+      message
+    });
+  }
+}

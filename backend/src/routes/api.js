@@ -37,6 +37,11 @@ router.get("/", (req, res) => {
  */
 router.get("/rides", rideController.getAllRides);
 
+/***
+ * GET / rides/:id   fetch a specific ride.
+ */
+router.get("/rides/:id", rideController.getSpecificRide);
+
 /**
  * POST /rides Create a ride offer.
  */
