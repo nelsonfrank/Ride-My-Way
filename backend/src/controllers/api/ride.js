@@ -31,7 +31,22 @@ export async function createRide(request, response) {
 
 export async function getSpecificRide(request, response) {
   try {
-    return response.status(200).request.params;
+    return response.status(200).request.params.id;
+  } catch (error) {
+    const { message } = error;
+
+    return response.status(500).json({
+      error,
+      message
+    });
+  }
+}
+
+export async function requestRide(request, response) {
+  try {
+    const rides = [];
+
+    return response.status(201).json(rides);
   } catch (error) {
     const { message } = error;
 

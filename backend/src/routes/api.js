@@ -48,6 +48,11 @@ router.get("/rides/:id", rideController.getSpecificRide);
 router.post("/rides", rideController.createRide);
 
 /**
+ * POST /rides  Request a Ride to Join
+ */
+router.post("/rides/:id/request", rideController.requestRide);
+
+/**
  * POST /register Register a user
  */
 router.post("/register", authController.register);
